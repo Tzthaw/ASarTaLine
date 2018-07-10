@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ASarTaLine</string>
+    <string name="sign_up_label">Sign Up</string>
+    <string name="log_in_label">Log In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="name_hint">UserName</string>
+    <string name="phone_hint">Phone</string>
+    <string name="share_element">share_image</string>
+    <string name="share_button">share_button</string>
+    <string name="detail_desc">One of the most amazing things about Design Support Library is that we can create lively animated UIs with some simple configuration in XML. No code nor deep control about scrolls is required, so the process becomes really easy.  We saw that Coordinator Layout is the central point the other components rely on to work properly, and that AppBarLayout helps the toolbar and other components to react to scroll changes. Today, I’ll show you how to use Collapsing Toolbar Layout to create awesome effects in a very easy way.</string>
+</resources>

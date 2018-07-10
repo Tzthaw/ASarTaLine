@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/login_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@color/color_log_in"
+        android:elevation="20dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/signUp_Layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <net.aungpyaephyo.mmtextview.components.MMTextView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="Login"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text_regular"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/container_fragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingBottom="32dp"
+        android:background="@drawable/login_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/signUp_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@color/color_sign_up"
+        android:elevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <net.aungpyaephyo.mmtextview.components.MMTextView
+            android:id="@+id/signUp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="SignUp"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text_regular"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

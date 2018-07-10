@@ -42,7 +42,6 @@ public class HomDetailActivity extends BaseActivity implements HomeDetailView {
     Toolbar toolbar;
     @BindView(R.id.details_appbar)
     AppBarLayout appBarLayout;
-    ;
     @BindView(R.id.details_collapsing)
     CollapsingToolbarLayout collapsingToolbarLayout;
     @BindView(R.id.detail_img_slider)
